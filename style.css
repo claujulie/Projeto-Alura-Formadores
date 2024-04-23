@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
+
+:root{
+    --cor-de-fundo : antiquewhite;
+    --rosa : #dd5ecacc;
+    --preto : #000000;
+}
+Header{
+    background-color: #dd5eca31;
+    color: rgb(190, 15, 144);
+}
+
+body {
+background-color:var(--cor-de-fundo);
+color: var(--rosa);
+color: var(black);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+    }
