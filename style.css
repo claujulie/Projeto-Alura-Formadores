@@ -1,24 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
+header{
 
-:root{
-    --cor-de-fundo : antiquewhite;
-    --rosa : #dd5ecacc;
-    --preto : #000000;
-}
-Header{
-    background-color: #dd5eca31;
-    color: rgb(190, 15, 144);
-}
-
-body {
-background-color:var(--cor-de-fundo);
-color: var(--rosa);
-color: var(black);
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.titulo-principal {
-    text-align: left;
-    width: 100%;
-    font-size: 32px;
+    .cabecalho {
+        background-color: (#dd5eca31);
+        font-family: Jacquard 12 Charted;
+        color: rgb(190, 15, 144);
+        color: black;
     }
+    
+    .cabecalho-imagem {
+        width: 100%;
+    }
+    
+    .cabecalho-lista-item {
+        color: #973889ce;
+        display: inline-block;
+        margin: 0 300px;
+        font-size: 35px;
+    }
+    
+}
+
+body{
+    background-color: antiquewhite;
+.contos-imagem-1 {
+    width: 47%;
+}
+
+.contos {
+    background: -o-linear-gradient(antiquewhite)
+}
+
+.poemas-imagem-1 {
+    width: 47%;
+}
+
+.poemas {
+    background-color: (antiquewhite);
+}
+}
